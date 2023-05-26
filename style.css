@@ -1,0 +1,12 @@
+body{
+
+}
+
+img {
+    width: 300px;
+    height: 500px;
+}
+
+nav {
+    background-image: url("purple-nebulae.jpg");
+}

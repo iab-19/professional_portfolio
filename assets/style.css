@@ -1,4 +1,11 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
 body{
+    background-color: bisque;
 
 }
 
@@ -9,5 +16,60 @@ img {
 
 nav {
     background-image: url("purple-nebulae.jpg");
-    height: 100px;
+    background-position: center center;
+    color: white;
+    color-scheme: white;
+    width: 99%;
+}
+
+nav a{
+    color: white;
+}
+
+nav ul{
+    list-style: none;
+}
+
+section {
+    border-style: solid;
+    border-width: 6px;
+    padding: 50px;
+    margin: 10px;
+
+}
+
+#about_me {
+    display: flex;
+}
+
+#priority1 {
+    background-image: url("password.jpg");
+    background-position: center center;
+    height: 400px;
+
+}
+
+#priority1 h4 {
+    color: white;
+}
+
+.priority2 {
+    width: 50%;
+    background-image: url("img2.png");
+    background-position: center center;
+}
+
+
+
+@media screen and (max-width: 992px) {
+
+
+}
+
+@media screen and (max-width: 786px) {
+
+}
+
+@media screen and (max-width: 786px) {
+
 }

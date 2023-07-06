@@ -9,6 +9,30 @@ body{
 
 }
 
+aside {
+    width: 20%;
+    float: left;
+    border-right: 10px orange;
+}
+
+.projectRow {
+    display: flex;
+}
+
+.left {
+    float: left;
+    width: 15%;
+    border-right: solid 4px;
+    padding: 0px;
+
+}
+
+.right {
+    float: right;
+    width: 80%;
+    padding: 10px;
+}
+
 img {
     width: 300px;
     height: 500px;
@@ -19,7 +43,7 @@ nav {
     background-position: center center;
     color: white;
     color-scheme: white;
-    width: 99%;
+    width: 100%;
 }
 
 nav a{
@@ -32,10 +56,9 @@ nav ul{
 
 section {
     border-style: solid;
-    border-width: 6px;
-    padding: 50px;
-    margin: 10px;
-
+    /* border-width: 6px; */
+    padding: 20px;
+    margin: 30px;
 }
 
 #about_me {
@@ -43,10 +66,17 @@ section {
 }
 
 #priority1 {
-    background-image: url("password.jpg");
+    /* background-image: url("password.jpg"); */
     background-position: center center;
     height: 400px;
+    image-orientation: inherit;
+    border-image-width: 20px;
 
+}
+
+.img11 {
+    width: 100%;
+    height: 100%;
 }
 
 #priority1 h4 {
@@ -54,8 +84,7 @@ section {
 }
 
 .priority2 {
-    width: 50%;
-    background-image: url("img2.png");
+    width: 45%;
     background-position: center center;
 }
 

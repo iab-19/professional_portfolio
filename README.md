@@ -1,5 +1,5 @@
 # professional_portfolio
-Module 2 Advanced CSS Challenge: Professional Portfolio  
+Ibrahima's Professional Portfolio  
   
   
 ## User Story  
